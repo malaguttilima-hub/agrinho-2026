@@ -1,0 +1,122 @@
+/* --- Cores Temáticas: Eco-Tech --- */
+:root {
+    --verde-principal: #2e7d32;
+    --verde-claro: #4caf50;
+    --azul-tecnologico: #00796b;
+    --escuro: #212121;
+    --claro: #f5f5f5;
+    --branco: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--claro);
+    color: var(--escuro);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, var(--verde-principal), var(--azul-tecnologico));
+    color: var(--branco);
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: var(--branco);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--verde-claro);
+}
+
+h2 {
+    color: var(--verde-principal);
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    margin-bottom: 1.5rem;
+}
+
+/* Campos do Simulador */
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--branco);
+}
+
+button {
+    background-color: var(--verde-principal);
+    color: var(--branco);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--verde-claro);
+}
+
+#resultado {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+    color: var(--verde-principal);
+    font-weight: bold;
+    display: none; /* Fica oculto até o clique do botão */
+    border: 1px solid var(--verde-claro);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--escuro);
+    color: var(--branco);
+    margin-top: 4rem;
+    font-size: 0.9rem;
+}
