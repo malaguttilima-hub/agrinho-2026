@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agrinho 2026</h1>
+        <p>Agro Forte, Futuro Sustentável: O Equilíbrio entre Programação e Meio Ambiente</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Tecnologia a Serviço da Terra</h2>
+            <p>
+                A programação moderna não vive isolada em telas de computador. No cenário do **Agrinho 2026**, as linhas de código se transformam em economia de água, otimização de solo e monitoramento climático. Desenvolver softwares inteligentes é a chave para garantir que o agro continue forte, produzindo mais com menos impacto ambiental.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Simulador de Impacto Tech no Campo</h2>
+            <p class="subtitulo">Escolha uma tecnologia e veja como a programação aplicada à agricultura gera sustentabilidade real:</p>
+            
+            <div class="form-group">
+                <label for="tecnologia">Selecione a Tecnologia Digital:</label>
+                <select id="tecnologia">
+                    <option value="irrigacao">Sensores de Irrigação Automatizada (Código Inteligente)</option>
+                    <option value="drones">Monitoramento por Drones (Algoritmos de Imagem)</option>
+                    <option value="dados">Análise de Dados Climáticos (Previsão de Safra)</option>
+                </select>
+            </div>
+
+            <button onclick="calcularImpacto()">Calcular Impacto Ambiental</button>
+
+            <div id="resultado"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Conectando Tecnologia e Natureza.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
